@@ -1,0 +1,17 @@
+1660392181772	geckodriver	INFO	Listening on 127.0.0.1:51156
+1660392185316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51157" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileQRt5n6"
+1660392193546	Marionette	INFO	Marionette enabled
+1660392193988	Marionette	INFO	Listening on port 51168
+Read port: 51168
+WebDriver BiDi listening on ws://localhost:51157
+Read port: 51168
+Read port: 51168
+1660392197393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileQRt5n6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51157/devtools/browser/2a5bc0d8-b98e-493a-b913-1cbf498787b6
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1660392958782	Marionette	INFO	Stopped listening on port 51168
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 14816, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
